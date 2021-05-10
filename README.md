@@ -1,10 +1,7 @@
-<div style="text-align:center">
-
 # Angular Template
 
-![](https://angular.io/assets/images/logos/angular/angular.png)
+![](https://i.ibb.co/8jxmVfz/template.png)
 
-</div>
 ## Packages And Dependencies
 
 ### This template is based on [pnpm](https://pnpm.io/) as the package manager and uses [Ant Design](https://ng.ant.design/) as the base UI library.
