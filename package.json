@@ -22,15 +22,24 @@
     "@ant-design/icons-angular": "^11.0.1",
     "ng-zorro-antd": "11.4.1",
     "rxjs": "~6.6.0",
-    "tslib": "^2.0.0",
+    "tslib": "^2.2.0",
     "zone.js": "~0.11.3"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.1102.11",
+    "@angular-eslint/builder": "4.2.0",
+    "@angular-eslint/eslint-plugin": "4.2.0",
+    "@angular-eslint/eslint-plugin-template": "4.2.0",
+    "@angular-eslint/schematics": "4.2.0",
+    "@angular-eslint/template-parser": "4.2.0",
     "@angular/cli": "~11.2.11",
     "@angular/compiler-cli": "~11.2.12",
-    "codelyzer": "^6.0.0",
-    "tslint": "~6.1.0",
+    "@typescript-eslint/eslint-plugin": "4.16.1",
+    "@typescript-eslint/parser": "4.16.1",
+    "eslint": "^7.6.0",
+    "eslint-plugin-import": "latest",
+    "eslint-plugin-jsdoc": "latest",
+    "eslint-plugin-prefer-arrow": "latest",
     "typescript": "~4.1.5"
   }
 }
