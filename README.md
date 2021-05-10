@@ -1,6 +1,8 @@
-<div style="text-align:center">
+
 
 # Angular Template
+
+<div style="text-align:center">
 
 ![](https://angular.io/assets/images/logos/angular/angular.png)
 
