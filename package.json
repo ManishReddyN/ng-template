@@ -18,7 +18,7 @@
     "@angular/forms": "~11.2.12",
     "@angular/platform-browser": "~11.2.12",
     "@angular/platform-browser-dynamic": "~11.2.12",
-    "@angular/router": "~11.2.12",
+    "@angular/router": "~11.2.14",
     "@ant-design/icons-angular": "^11.0.1",
     "ng-zorro-antd": "11.4.1",
     "rxjs": "~6.6.0",

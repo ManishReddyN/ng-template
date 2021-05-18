@@ -13,8 +13,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { IconDefinition } from '@ant-design/icons-angular';
 import * as AllIcons from '@ant-design/icons-angular/icons';
 
+//Routing
+import { AppRoutingModule } from './app-routing.module';
+
 // Ant-Design Imports
 import { NzIconModule } from 'ng-zorro-antd/icon';
+import { Component01Component } from './components/component01/component01.component';
+import { Component02Component } from './components/component02/component02.component';
 
 registerLocaleData(en);
 
@@ -25,10 +30,11 @@ const icons: IconDefinition[] = Object.keys(antDesignIcons).map(
   (key) => antDesignIcons[key]
 );
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, Component01Component, Component02Component],
   imports: [
     BrowserModule,
     ReactiveFormsModule,
+    AppRoutingModule,
     HttpClientModule,
     BrowserAnimationsModule,
     NzIconModule,
